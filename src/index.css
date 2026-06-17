@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind base;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind components;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Theme - Clean & Professional */
+    --background: 220 20% 99%; /* Almost white, very light cool gray */
+    --foreground: 220 15% 20%; /* Dark, slightly desaturated blue */
+
+    --card: 220 0% 100%;
+    --card-foreground: 220 15% 20%;
+
+    --popover: 220 0% 100%;
+    --popover-foreground: 220 15% 20%;
+
+    /* Primary - A more modern, slightly desaturated blue */
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 20% 98%;
+    --primary-hover: 221 83% 48%;
+
+    /* Secondary - A calmer, more professional green */
+    --secondary: 142 61% 45%;
+    --secondary-foreground: 210 20% 98%;
+    --secondary-hover: 142 61% 40%;
+
+    /* Muted - Softer grays for less emphasis */
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    /* Accent - For hover states and subtle highlights */
+    --accent: 220 15% 94%;
+    --accent-foreground: 220 15% 20%;
+
+    /* Status Colors - Adjusted for better contrast and modern feel */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+    
+    --success: 142 71% 40%;
+    --success-foreground: 210 20% 98%;
+    
+    --warning: 43 96% 56%;
+    --warning-foreground: 220 15% 20%;
+    
+    --info: 210 91% 55%;
+    --info-foreground: 210 20% 98%;
+
+    /* Borders & Inputs */
+    --border: 220 13% 90%;
+    --input: 220 13% 90%;
+    --ring: 221 83% 53%;
+
+    /* Layout */
+    --radius: 0.5rem;
+    --header-height: 4rem;
+    --sidebar-width: 16rem;
+    --sidebar-collapsed-width: 4rem;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-hover)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-hover)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+
+    /* Animations */
+    --transition-base: all 0.2s ease-in-out;
+    --transition-slow: all 0.3s ease-in-out;
+
+    /* Sidebar Specific */
+    --sidebar-background: 220 20% 99%;
+    --sidebar-foreground: 220 15% 20%;
+    --sidebar-primary: 221 83% 53%;
+    --sidebar-primary-foreground: 210 20% 98%;
+    --sidebar-accent: 220 15% 94%;
+    --sidebar-accent-foreground: 220 15% 20%;
+    --sidebar-border: 220 13% 90%;
+    --sidebar-ring: 221 83% 53%;
+  }
+
+  .dark {
+    /* Dark Theme - Modern & Sleek */
+    --background: 222 47% 11%; /* Dark desaturated blue */
+    --foreground: 210 40% 98%; /* Light gray */
+
+    --card: 222 47% 13%; /* Slightly lighter than background */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary - A vibrant blue for dark mode */
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+    --primary-hover: 217 91% 55%;
+
+    /* Secondary - A brighter green for dark mode */
+    --secondary: 139 51% 56%;
+    --secondary-foreground: 222 47% 11%;
+    --secondary-hover: 139 51% 51%;
+
+    /* Muted - Subtle grays for dark mode */
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Accent - For hover states */
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    /* Status Colors */
+    --destructive: 0 63% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 142 61% 45%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 43 96% 56%;
+    --warning-foreground: 222 47% 11%;
+
+    --info: 204 91% 55%;
+    --info-foreground: 210 40% 98%;
+
+    /* Borders & Inputs */
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 217 91% 60%;
+
+    /* Sidebar Specific */
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 222 47% 11%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 20%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+  
+
+  * {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply border-border;
+  }
+
+  body {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-background text-foreground font-inter antialiased;
+  }
+
+  /* Custom scrollbar (Chrome, Edge, Safari) */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+
+  /* Custom scrollbar (Firefox) */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted-foreground) / 0.3) hsl(var(--muted));
+  }
+@layer components {
+  /* Status badge variants */
+  .status-success {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-success/10 text-success border border-success/20;
+  }
+  .status-warning {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-warning/10 text-warning border border-warning/20;
+  }
+  .status-danger {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-destructive/10 text-destructive border border-destructive/20;
+  }
+  .status-info {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-info/10 text-info border border-info/20;
+  }
+
+  /* Card variants */
+  .card-elevated {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply bg-card border border-border shadow-md hover:shadow-lg transition-shadow duration-200;
+  }
+
+  /* Button gradient variants */
+  .btn-gradient-primary {
+    background: var(--gradient-primary);
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply text-primary-foreground hover:opacity-90 transition-opacity duration-200;
+  }
+  .btn-gradient-secondary {
+    background: var(--gradient-secondary);
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply text-secondary-foreground hover:opacity-90 transition-opacity duration-200;
+  }
+  /* Notification Card */
+  .notifications-container {
+  /* stylelint-disable-next-line at-rule-no-unknown */
+  @apply flex flex-col gap-4 relative p-4;
+  padding-top: 5rem; 
+  z-index: 50;
+  /* Use theme background to avoid light-only colors */
+  background-color: transparent;
+  opacity: 100%;
+  overflow: visible;/* pushes notifications down */
+}
+
+  /* Header Actions (Mark all read + New Treatment) */
+  .notifications-header {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply flex items-center justify-between mb-4 bg-card relative z-30;
+  }
+  .notifications-header h2 {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply text-lg font-semibold;
+  }
+  .new-treatment-btn {
+    /* stylelint-disable-next-line at-rule-no-unknown */
+    @apply btn-gradient-primary rounded-lg px-4 py-2 shadow-md;
+    position: relative;
+    z-index: 50; /* Ensure it stays above other elements */
+  }
+  .notification-card {
+  /* stylelint-disable-next-line at-rule-no-unknown */
+  @apply bg-card border border-border shadow-md rounded-lg p-4 animation-slide-up;
+  /* Rely on theme card background */
+  background-color: hsl(var(--card));
+  position: relative;
+  z-index: 50;
+}
+
+  /* Dropdown Content - Ensure Full Opacity */
+  .dropdown-content {
+    background-color: hsl(var(--popover)) !important;
+    opacity: 1 !important;
+    backdrop-filter: none !important;
+  }
+
+  /* Specific styling for notification dropdown */
+  [data-radix-popper-content-wrapper] {
+    background-color: hsl(var(--popover)) !important;
+    opacity: 1 !important;
+  }
+
+  /* Ensure all dropdown menus are fully opaque */
+  [role="menu"],
+  [role="menuitem"],
+  [data-radix-select-content],
+  [data-radix-dropdown-menu-content] {
+    background-color: hsl(var(--popover)) !important;
+    opacity: 1 !important;
+  }
+
+  /* Additional dropdown opacity fixes */
+  .dropdown-menu-content,
+  .select-content,
+  .popover-content {
+    background-color: hsl(var(--popover)) !important;
+    opacity: 1 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Ensure notification dropdown is fully opaque */
+  .notification-dropdown-content {
+    background-color: hsl(var(--popover)) !important;
+    opacity: 1 !important;
+    backdrop-filter: none !important;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .animation-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  .animation-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Smooth transitions for interactive elements */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Button animations */
+.btn-animate {
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-animate:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-animate:active {
+  transform: translateY(0);
+}
+
+/* Loading spinner */
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Pulse animation for important elements */
+.pulse-important {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Slide in animations */
+.slide-in-left {
+  animation: slideInLeft 0.5s ease-out;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.5s ease-out;
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Status badge animations */
+.status-badge {
+  transition: all 0.2s ease;
+}
+
+.status-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Form input focus effects */
+.input-focus {
+  transition: all 0.2s ease;
+}
+
+.input-focus:focus {
+  transform: scale(1.02);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Card stagger animation */
+.card-stagger {
+  animation: staggerIn 0.6s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.card-stagger:nth-child(1) { animation-delay: 0.1s; }
+.card-stagger:nth-child(2) { animation-delay: 0.2s; }
+.card-stagger:nth-child(3) { animation-delay: 0.3s; }
+.card-stagger:nth-child(4) { animation-delay: 0.4s; }
+.card-stagger:nth-child(5) { animation-delay: 0.5s; }
+.card-stagger:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes staggerIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive improvements */
+@media (max-width: 640px) {
+  .grid-responsive {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .card-elevated {
+    margin: 0.5rem;
+  }
+  
+  .text-responsive {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .grid-responsive {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .grid-responsive {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}

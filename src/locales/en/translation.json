@@ -1,0 +1,326 @@
+{
+  "farmManagementPortal": "Farm Management Portal For Livestock",
+  "modernSecureResponsible": "Modern, secure, and responsible livestock management",
+  "createAccount": "Create Account",
+  "signIn": "Sign In",
+  "createAccountDescription": "Create your FARMTRACE account to manage livestock responsibly.",
+  "signInDescription": "Sign in to FARMTRACE and take control of your farm data.",
+  "role": "Role",
+  "selectRole": "Select your role",
+  "farmer": "Farmer",
+  "veterinarian": "Veterinarian",
+  "regulator": "Regulator",
+  "fullName": "Full Name",
+  "organization": "Organization",
+  "licenseNumber": "License Number",
+  "farmId": "Farm ID",
+  "email": "Email",
+  "password": "Password",
+  "demoAccount": "Demo Account",
+  "useDemoData": "Use Demo Data",
+  "alreadyHaveAccount": "Already have an account? Sign in",
+  "dontHaveAccount": "Don't have an account? Register",
+  "language": "Language",
+  "english": "English",
+  "tamil": "Tamil",
+  "hindi": "Hindi",
+  "loginSuccessful": "Login successful",
+  "welcomeBack": "Welcome back, {{role}}!",
+  "loginFailed": "Login failed",
+  "invalidCredentials": "Invalid credentials",
+  "registrationSuccessful": "Registration successful",
+  "accountCreated": "Your account has been created successfully!",
+  "registrationFailed": "Registration failed",
+  "logout": "Logout",
+  "searchPlaceholder": "Search treatments, alerts, reports...",
+  "nav": {
+    "dashboard": "Dashboard",
+    "treatments": "Treatments",
+    "feedAdditives": "Feed Additives",
+    "alerts": "Alerts",
+    "approvals": "Approvals",
+    "farmers": "Farmers",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "compliance": "Compliance"
+  },
+  "feedAdditives": {
+    "title": "Feed Additives",
+    "subtitle": "Medicated feed usage tracking and management",
+    "filter": "Filter",
+    "searchPlaceholder": "Search by drug, batch number, or animal group...",
+    "summary": {
+      "activeFeeds": "Active Feeds",
+      "pendingApproval": "Pending Approval",
+      "completedThisMonth": "Completed This Month"
+    },
+    "tableTitle": "Medicated Feed Records",
+    "tableDesc": "Complete history of medicated feed usage",
+    "columns": {
+      "drug": "Drug",
+      "batch": "Batch #",
+      "quantity": "Quantity",
+      "concentration": "Concentration",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "withdrawal": "Withdrawal",
+      "animalGroup": "Animal Group",
+      "animals": "Animals",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "statuses": {
+      "active": "Active",
+      "pending": "Pending",
+      "completed": "Completed"
+    },
+    "drugs": {
+      "chlortetracycline": "Chlortetracycline",
+      "tylosin": "Tylosin",
+      "salinomycin": "Salinomycin"
+    },
+    "batchNumbers": {
+      "CT2024-001": "CT2024-001",
+      "TY2024-003": "TY2024-003",
+      "SL2024-007": "SL2024-007"
+    },
+    "quantities": {
+      "50kg": "50kg",
+      "25kg": "25kg",
+      "30kg": "30kg"
+    },
+    "concentrations": {
+      "220g/ton": "220g/ton",
+      "100g/ton": "100g/ton",
+      "66g/ton": "66g/ton"
+    },
+    "dates": {
+      "2024-01-15": "2024-01-15",
+      "2024-01-20": "2024-01-20",
+      "2024-01-27": "2024-01-27",
+      "2024-01-10": "2024-01-10",
+      "2024-01-17": "2024-01-17",
+      "2024-01-24": "2024-01-24",
+      "2024-01-12": "2024-01-12",
+      "2024-01-19": "2024-01-19",
+      "2024-01-26": "2024-01-26"
+    },
+    "animalGroups": {
+      "pigsBarn2": "Pigs Barn 2",
+      "cattleLotA": "Cattle Lot A",
+      "broilersHouse1": "Broilers House 1"
+    },
+    "purposes": {
+      "growthPromotion": "Growth promotion",
+      "diseasePrevention": "Disease prevention",
+      "coccidiosisPrevention": "Coccidiosis prevention"
+    }
+  },
+  "alertsList": {
+    "title": "Alerts & Notifications",
+    "subtitle": "Monitor important events and compliance requirements",
+    "filter": "Filter",
+    "searchPlaceholder": "Search alerts by animal, drug, or type...",
+    "summary": {
+      "activeAlerts": "Active Alerts",
+      "highPriority": "High Priority",
+      "withdrawalAlerts": "Withdrawal Alerts",
+      "prescriptionWithdrawals": "Prescription Withdrawals",
+      "resolvedToday": "Resolved Today"
+    },
+    "allAlerts": "All Alerts",
+    "allAlertsDesc": "Complete list of alerts and notifications",
+    "labels": {
+      "animal": "Animal",
+      "drug": "Drug",
+      "dueDate": "Due Date",
+      "location": "Location",
+      "prescriptionId": "Prescription ID",
+      "prescribedBy": "Prescribed by",
+      "status": "Status"
+    },
+    "statuses": {
+      "active": "Active",
+      "acknowledged": "Acknowledged",
+      "resolved": "Resolved"
+    },
+    "buttons": {
+      "view": "View",
+      "acknowledge": "Acknowledge"
+    },
+    "types": {
+      "withdrawal": "Withdrawal",
+      "prescription_withdrawal": "Prescription Withdrawal",
+      "compliance": "Compliance",
+      "dosage": "Dosage",
+      "feed_additive": "Feed Additive"
+    }
+  },
+  "farmPortal": "Farm Portal",
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "goBack": "Go Back",
+    "returnHome": "Return Home"
+  },
+  "settings": "Settings",
+  "settingsComingSoon": "User settings coming soon...",
+  "unknownFarm": "Unknown Farm",
+  "regDashboard": {
+    "title": "Regulatory Dashboard",
+    "subtitle": "Monitor antimicrobial usage across all farms",
+    "registeredFarms": "Registered Farms",
+    "activeTreatments": "Active Treatments",
+    "violations": "Violations",
+    "avgCompliance": "Avg. Compliance",
+    "monthlyTrends": "Monthly AMU Trends",
+    "monthlyTrendsDesc": "Antimicrobial usage trends across all farms",
+    "drugDistribution": "Drug Usage Distribution",
+    "drugDistributionDesc": "Most commonly used antimicrobials",
+    "farmGrowth": "Farm Registration Growth",
+    "farmGrowthDesc": "Number of farms registered over time",
+    "recentAlerts": "Recent Alerts",
+    "recentAlertsDesc": "Latest compliance issues and warnings",
+    "noRecentAlerts": "No recent alerts"
+  },
+  "severity": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "critical": "Critical"
+  },
+  "notifications": {
+    "withdrawalPeriodEndingToday": {
+      "title": "Withdrawal Period Ending Today",
+      "message": "{{cattleTag}} withdrawal period for {{medication}} ends today. Animal will be safe for consumption after {{date}}."
+    },
+    "withdrawalPeriodEndingSoon": {
+      "title": "Withdrawal Period Ending Soon",
+      "message": "{{cattleTag}} withdrawal period for {{medication}} ends in {{daysRemaining}} day(s). Animal will be safe for consumption after {{date}}."
+    },
+    "withdrawalPeriodActive": {
+      "title": "Withdrawal Period Active",
+      "message": "{{cattleTag}} is in withdrawal period for {{medication}}. {{daysRemaining}} days remaining until safe for consumption."
+    },
+    "withdrawalPeriodStarted": {
+      "title": "Withdrawal Period Started",
+      "message": "{{cattleTag}} withdrawal period for {{medication}} has started. {{daysRemaining}} days until safe for consumption."
+    }
+  },
+  "common": {
+    "days": "days",
+    "view": "View"
+  },
+  "commonStatuses": {
+    "approved": "Approved",
+    "pending": "Pending",
+    "rejected": "Rejected",
+    "completed": "Completed"
+  },
+  "treatmentsList": {
+    "title": "Treatment Records",
+    "subtitle": "Detailed antimicrobial treatment history",
+    "filter": "Filter",
+    "searchPlaceholder": "Search by animal ID, drug, or veterinarian...",
+    "allTreatments": "All Treatments",
+    "allTreatmentsDesc": "Complete record of antimicrobial treatments",
+    "columns": {
+      "animalId": "Animal ID",
+      "drug": "Drug",
+      "dosage": "Dosage",
+      "route": "Route",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "withdrawal": "Withdrawal",
+      "status": "Status",
+      "veterinarian": "Veterinarian",
+      "actions": "Actions"
+    }
+  },
+  "farmerDashboard": {
+    "title": "Farm Dashboard",
+    "subtitle": "Monitor your farm's antimicrobial usage and compliance",
+    "activeTreatments": "Active Treatments",
+    "pendingApprovals": "Pending Approvals",
+    "feedAdditives": "Feed Additives",
+    "problemsReported": "Problems Reported",
+    "prescriptions": "Prescriptions",
+    "compliance": "Compliance",
+    "problemsAndPrescriptions": "Cattle Problems & Prescriptions",
+    "problemsAndPrescriptionsDesc": "Reported problems and received prescriptions",
+    "noProblems": "No problems reported yet",
+    "noProblemsCta": "Click \"Report Cattle Problem\" to get started",
+    "reported": "Reported",
+    "prescriptionReceived": "Prescription Received",
+    "medication": "Medication",
+    "dosage": "Dosage",
+    "duration": "Duration",
+    "withdrawalPeriod": "Withdrawal Period",
+    "instructions": "Instructions",
+    "safeAfter": "Safe for consumption after",
+    "waitingForReview": "Waiting for veterinarian review",
+    "recentTreatments": "Recent Treatments",
+    "recentTreatmentsDesc": "Latest antimicrobial treatments",
+    "noTreatments": "No treatments recorded yet",
+    "noTreatmentsCta": "Submit your first treatment to get started",
+    "withdrawal": "Withdrawal",
+    "approvedBy": "Approved by",
+    "rejected": "Rejected",
+    "alertsAndNotifications": "Alerts & Notifications",
+    "alertsAndNotificationsDesc": "Important updates and reminders",
+    "noActiveAlerts": "No active alerts",
+    "noActiveAlertsDesc": "All withdrawal periods and compliance items are up to date"
+  },
+  "timeAgo": {
+    "justNow": "just now",
+    "minsAgo": "{{count}} min(s) ago",
+    "hoursAgo": "{{count}} hour(s) ago",
+    "daysAgo": "{{count}} day(s) ago"
+  },
+  "vetDashboard": {
+    "title": "Veterinarian Dashboard",
+    "subtitle": "Review and approve antimicrobial treatments",
+    "pendingProblems": "Pending Problems",
+    "prescriptionsGiven": "Prescriptions Given",
+    "pendingApprovals": "Pending Approvals",
+    "approvedToday": "Approved Today",
+    "activeFarms": "Active Farms",
+    "compliance": "Compliance",
+    "cattleProblemsFromFarmers": "Cattle Problems from Farmers",
+    "cattleProblemsFromFarmersDesc": "Review problems and provide prescriptions",
+    "farm": "Farm",
+    "farmer": "Farmer",
+    "reported": "Reported",
+    "prescriptionGiven": "Prescription Given",
+    "medication": "Medication",
+    "dosage": "Dosage",
+    "duration": "Duration",
+    "withdrawalPeriod": "Withdrawal Period",
+    "startReview": "Start Review",
+    "givePrescription": "Give Prescription",
+    "recentActivity": "Recent Activity",
+    "recentActivityDesc": "Your recent actions and approvals",
+    "noRecentActivity": "No recent activity yet",
+    "treatmentApprovals": "Treatment Approvals",
+    "treatmentApprovalsDesc": "Review and approve antimicrobial treatments submitted by farmers",
+    "noPendingTreatments": "No pending treatments for approval",
+    "allReviewed": "All treatments have been reviewed",
+    "pending": "pending",
+    "submitted": "Submitted",
+    "animal": "Animal",
+    "drug": "Drug",
+    "route": "Route",
+    "frequency": "Frequency",
+    "startDate": "Start Date",
+    "withdrawalDate": "Withdrawal Date",
+    "reason": "Reason",
+    "batchNumber": "Batch Number",
+    "approve": "Approve",
+    "info": "Info",
+    "treatmentRejected": "Treatment rejected",
+    "reject": "Reject",
+    "notifications": "Notifications",
+    "notificationsDesc": "Latest notifications for you",
+    "noNotifications": "No notifications"
+  }
+}

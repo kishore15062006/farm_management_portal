@@ -1,0 +1,281 @@
+{
+  "farmManagementPortal": "கால்நடைகளுக்கான பண்ணை மேலாண்மை தளம்",
+  "modernSecureResponsible": "நவீன, பாதுகாப்பான மற்றும் பொறுப்பான கால்நடை மேலாண்மை",
+  "createAccount": "கணக்கை உருவாக்கு",
+  "signIn": "உள்நுழை",
+  "createAccountDescription": "கால்நடைகளை பொறுப்புடன் நிர்வகிக்க உங்கள் FARMTRACE கணக்கை உருவாக்கவும்.",
+  "signInDescription": "FARMTRACE இல் உள்நுழைந்து உங்கள் பண்ணை தரவைக் கட்டுப்படுத்தவும்.",
+  "role": "பங்கு",
+  "selectRole": "உங்கள் பங்கைத் தேர்ந்தெடுக்கவும்",
+  "farmer": "விவசாயி",
+  "veterinarian": "கால்நடை மருத்துவர்",
+  "regulator": "ஒழுங்குபடுத்துபவர்",
+  "fullName": "முழு பெயர்",
+  "organization": "நிறுவனம்",
+  "licenseNumber": "உரிம எண்",
+  "farmId": "பண்ணை ஐடி",
+  "email": "மின்னஞ்சல்",
+  "password": "கடவுச்சொல்",
+  "demoAccount": "டெமோ கணக்கு",
+  "useDemoData": "டெமோ தரவைப் பயன்படுத்து",
+  "alreadyHaveAccount": "ஏற்கனவே கணக்கு உள்ளதா? உள்நுழையவும்",
+  "dontHaveAccount": "கணக்கு இல்லையா? பதிவு செய்யவும்",
+  "language": "மொழி",
+  "english": "English",
+  "tamil": "தமிழ்",
+  "hindi": "हिंदी",
+  "loginSuccessful": "உள்நுழைவு வெற்றிகரமாக முடிந்தது",
+  "welcomeBack": "மீண்டும் வருக, {{role}}!",
+  "loginFailed": "உள்நுழைவு தோல்வியடைந்தது",
+  "invalidCredentials": "தவறான அங்கீகார விவரங்கள்",
+  "registrationSuccessful": "பதிவு வெற்றிகரமாக முடிந்தது",
+  "accountCreated": "உங்கள் கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டது!",
+  "registrationFailed": "பதிவு தோல்வியடைந்தது",
+  "logout": "வெளியேறு",
+  "searchPlaceholder": "சிகிச்சைகள், எச்சரிக்கைகள், அறிக்கைகள்... தேடவும்"
+  ,
+  "nav": {
+    "dashboard": "டாஷ்போர்டு",
+    "treatments": "சிகிச்சைகள்",
+    "feedAdditives": "மீதமுள்ள சேர்மங்கள்",
+    "alerts": "எச்சரிக்கைகள்",
+    "approvals": "அனுமதிகள்",
+    "farmers": "விவசாயிகள்",
+    "analytics": "ஆனாலிட்டிக்ஸ்",
+    "reports": "அறிக்கைகள்",
+    "compliance": "கம்ப்ளையன்ஸ்"
+  }
+  ,
+  "farmPortal": "பண்ணை தளம்",
+  "notFound": {
+    "title": "பக்கம் கிடைக்கவில்லை",
+    "description": "நீங்கள் தேடும் பக்கம் இல்லை அல்லது மாற்றப்பட்டுள்ளது.",
+    "goBack": "பின்னுக்கு செல்",
+    "returnHome": "முகப்புக்கு செல்"
+  },
+  "settings": "அமைப்புகள்",
+  "settingsComingSoon": "பயனர் அமைப்புகள் விரைவில் வருகிறது...",
+  "unknownFarm": "தெரியாத பண்ணை",
+  "regDashboard": {
+    "title": "ஒழுங்குமுறை டாஷ்போர்டு",
+    "subtitle": "அனைத்து பண்ணைகளிலும் நுண்ணுயிரி தடுப்பு மருந்து பயன்பாட்டை கண்காணிக்கவும்",
+    "registeredFarms": "பதிவுசெய்யப்பட்ட பண்ணைகள்",
+    "activeTreatments": "செயலில் உள்ள சிகிச்சைகள்",
+    "violations": "மீறல்கள்",
+    "avgCompliance": "சராசரி இணக்கம்",
+    "monthlyTrends": "மாதாந்திர AMU போக்குகள்",
+    "monthlyTrendsDesc": "அனைத்து பண்ணைகளிலும் நுண்ணுயிரி தடுப்பு மருந்து பயன்பாட்டின் போக்குகள்",
+    "drugDistribution": "மருந்து பயன்பாட்டு பகிர்வு",
+    "drugDistributionDesc": "அதிகமாக பயன்படுத்தப்படும் மருந்துகள்",
+    "farmGrowth": "பண்ணை பதிவு வளர்ச்சி",
+    "farmGrowthDesc": "காலப்போக்கில் பதிவு செய்யப்பட்ட பண்ணைகளின் எண்ணிக்கை",
+    "recentAlerts": "சமீபத்திய எச்சரிக்கைகள்",
+    "recentAlertsDesc": "சமீபத்திய இணக்கம் தொடர்பான பிரச்சினைகள் மற்றும் எச்சரிக்கைகள்",
+    "noRecentAlerts": "சமீபத்திய எச்சரிக்கைகள் இல்லை"
+  },
+  "severity": {
+    "high": "உயர்",
+    "medium": "இடைநிலை",
+    "low": "குறைந்த",
+    "critical": "மிகவும் தீவிரமான"
+  },
+  "notifications": {
+    "withdrawalPeriodEndingToday": {
+      "title": "விலகல் காலம் இன்று முடிகிறது",
+      "message": "{{cattleTag}} க்கான {{medication}} விலகல் காலம் இன்று முடிகிறது. {{date}} முதல் பயன்பாட்டுக்கு பாதுகாப்பாக இருக்கும்."
+    },
+    "withdrawalPeriodEndingSoon": {
+      "title": "விலகல் காலம் விரைவில் முடிகிறது",
+      "message": "{{cattleTag}} க்கான {{medication}} விலகல் காலம் {{daysRemaining}} நாட்களில் முடியும். {{date}} முதல் பயன்பாட்டுக்கு பாதுகாப்பாக இருக்கும்."
+    },
+    "withdrawalPeriodActive": {
+      "title": "விலகல் காலம் செயலில் உள்ளது",
+      "message": "{{cattleTag}} {{medication}} க்கான விலகல் காலத்தில் உள்ளது. பயன்பாட்டுக்கு பாதுகாப்பாக ஆக இன்னும் {{daysRemaining}} நாட்கள் உள்ளன."
+    },
+    "withdrawalPeriodStarted": {
+      "title": "விலகல் காலம் தொடங்கியுள்ளது",
+      "message": "{{cattleTag}} க்கான {{medication}} விலகல் காலம் தொடங்கியுள்ளது. பயன்பாட்டுக்கு பாதுகாப்பாக ஆக இன்னும் {{daysRemaining}} நாட்கள் உள்ளன."
+    }
+  },
+  "common": {
+    "days": "நாட்கள்",
+    "view": "பார்"
+  },
+  "commonStatuses": {
+    "approved": "அனுமதிக்கப்பட்டது",
+    "pending": "நிலுவையில்",
+    "rejected": "நிராகரிக்கப்பட்டது",
+    "completed": "முடிக்கப்பட்டது"
+  },
+  "timeAgo": {
+    "justNow": "இப்பொழுது",
+    "minsAgo": "{{count}} நிமிடங்களுக்கு முன்",
+    "hoursAgo": "{{count}} மணி நேரங்களுக்கு முன்",
+    "daysAgo": "{{count}} நாட்களுக்கு முன்"
+  },
+  "vetDashboard": {
+    "title": "கால்நடை மருத்துவர் டாஷ்போர்டு",
+    "subtitle": "எதிர்நுண்ணுயிரி சிகிச்சைகளை மதிப்பாய்வு செய்து அனுமதிக்கவும்",
+    "pendingProblems": "நிலுவையில் உள்ள பிரச்சினைகள்",
+    "prescriptionsGiven": "வழங்கப்பட்ட மருந்தளித்தல்",
+    "pendingApprovals": "நிலுவையில் உள்ள அனுமதிகள்",
+    "approvedToday": "இன்று அனுமதிக்கப்பட்டவை",
+    "activeFarms": "செயலில் உள்ள பண்ணைகள்",
+    "compliance": "இணக்கம்",
+    "cattleProblemsFromFarmers": "விவசாயிகளின் கால்நடை பிரச்சினைகள்",
+    "cattleProblemsFromFarmersDesc": "பிரச்சினைகளை மதிப்பாய்வு செய்து மருந்தளித்தல் வழங்கவும்",
+    "farm": "பண்ணை",
+    "farmer": "விவசாயி",
+    "reported": "அறிக்கையிடப்பட்டது",
+    "prescriptionGiven": "மருந்தளித்தல் வழங்கப்பட்டது",
+    "medication": "மருந்து",
+    "dosage": "அளவு",
+    "duration": "கால அளவு",
+    "withdrawalPeriod": "விலகல் காலம்",
+    "startReview": "மதிப்பாய்வை தொடங்கு",
+    "givePrescription": "மருந்தளித்தல் வழங்கவும்",
+    "recentActivity": "சமீபத்திய செயல்பாடு",
+    "recentActivityDesc": "உங்கள் சமீபத்திய செயல்கள் மற்றும் அனுமதிகள்",
+    "noRecentActivity": "இன்னும் எந்த செயல்பாடும் இல்லை",
+    "treatmentApprovals": "சிகிச்சை அனுமதிகள்",
+    "treatmentApprovalsDesc": "விவசாயிகள் சமர்ப்பித்த சிகிச்சைகளை மதிப்பாய்வு செய்து அனுமதிக்கவும்",
+    "noPendingTreatments": "அனுமதிக்கு நிலுவையில் சிகிச்சைகள் இல்லை",
+    "allReviewed": "அனைத்து சிகிச்சைகளும் மதிப்பாய்வு செய்யப்பட்டுள்ளன",
+    "pending": "நிலுவையில்",
+    "submitted": "சமர்ப்பிக்கப்பட்டது",
+    "animal": "விலங்கு",
+    "drug": "மருந்து",
+    "route": "வழி",
+    "frequency": "அதிர்ச்சி",
+    "startDate": "தொடக்க தேதி",
+    "withdrawalDate": "விலகல் தேதி",
+    "reason": "காரணம்",
+    "batchNumber": "குத்தகை எண்",
+    "approve": "அனுமதி",
+    "info": "தகவல்",
+    "treatmentRejected": "சிகிச்சை நிராகரிக்கப்பட்டது",
+    "reject": "நிராகரி",
+    "notifications": "அறிவிப்புகள்",
+    "notificationsDesc": "உங்களுக்கான சமீபத்திய அறிவிப்புகள்",
+    "noNotifications": "அறிவிப்புகள் இல்லை"
+  },
+  "treatmentsList": {
+    "title": "சிகிச்சை பதிவுகள்",
+    "subtitle": "எதிர்நுண்ணுயிரி சிகிச்சைகளின் விரிவான வரலாறு",
+    "filter": "வடிகட்டி",
+    "searchPlaceholder": "விலங்கு ஐடி, மருந்து அல்லது மருத்துவர் மூலம் தேடுங்கள்...",
+    "allTreatments": "அனைத்து சிகிச்சைகள்",
+    "allTreatmentsDesc": "எதிர்நுண்ணுயிரி சிகிச்சைகளின் முழு பதிவு",
+    "columns": {
+      "animalId": "விலங்கு ஐடி",
+      "drug": "மருந்து",
+      "dosage": "அளவு",
+      "route": "வழி",
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "withdrawal": "விலகல்",
+      "status": "நிலை",
+      "veterinarian": "கால்நடை மருத்துவர்",
+      "actions": "செயல்கள்"
+    }
+  },
+  "feedAdditives": {
+    "title": "ஊட்டச்சத்து சேர்மங்கள்",
+    "subtitle": "மருந்து கலந்த உணவு பயன்பாட்டை கண்காணித்தல் மற்றும் மேலாண்மை",
+    "filter": "வடிகட்டி",
+    "searchPlaceholder": "மருந்து, குத்தகை எண் அல்லது விலங்கு குழுவால் தேடுங்கள்...",
+    "summary": {
+      "activeFeeds": "செயலில் உள்ள உணவுகள்",
+      "pendingApproval": "அனுமதி நிலுவையில்",
+      "completedThisMonth": "இந்த மாதத்தில் முடிந்தவை"
+    },
+    "tableTitle": "மருந்து கலந்த உணவு பதிவுகள்",
+    "tableDesc": "மருந்து கலந்த உணவு பயன்பாட்டின் முழு வரலாறு",
+    "columns": {
+      "drug": "மருந்து",
+      "batch": "குத்தகை #",
+      "quantity": "அளவு",
+      "concentration": "செறிவு",
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "withdrawal": "விலகல்",
+      "animalGroup": "விலங்கு குழு",
+      "animals": "விலங்குகள்",
+      "status": "நிலை",
+      "actions": "செயல்கள்"
+    },
+    "statuses": {
+      "active": "செயலில்",
+      "pending": "நிலுவையில்",
+      "completed": "முடிந்தது"
+    }
+  },
+  "alertsList": {
+    "title": "எச்சரிக்கைகள் & அறிவிப்புகள்",
+    "subtitle": "முக்கிய நிகழ்வுகள் மற்றும் இணக்கத் தேவைகளை கண்காணிக்கவும்",
+    "filter": "வடிகட்டி",
+    "searchPlaceholder": "விலங்கு, மருந்து அல்லது வகை மூலம் எச்சரிக்கைகளை தேடுங்கள்...",
+    "summary": {
+      "activeAlerts": "செயலில் உள்ள எச்சரிக்கைகள்",
+      "highPriority": "உயர் முன்னுரிமை",
+      "withdrawalAlerts": "விலகல் எச்சரிக்கைகள்",
+      "prescriptionWithdrawals": "மருந்தளித்தல் விலகல்கள்",
+      "resolvedToday": "இன்று தீர்க்கப்பட்டது"
+    },
+    "allAlerts": "அனைத்து எச்சரிக்கைகள்",
+    "allAlertsDesc": "எச்சரிக்கைகள் மற்றும் அறிவிப்புகளின் முழு பட்டியல்",
+    "labels": {
+      "animal": "விலங்கு",
+      "drug": "மருந்து",
+      "dueDate": "காலக்கெடு",
+      "location": "இடம்",
+      "prescriptionId": "மருந்தளித்தல் ஐடி",
+      "prescribedBy": "மருந்தளித்தவர்",
+      "status": "நிலை"
+    },
+    "statuses": {
+      "active": "செயலில்",
+      "acknowledged": "ஏற்றுக்கொள்ளப்பட்டது",
+      "resolved": "தீர்க்கப்பட்டது"
+    },
+    "buttons": {
+      "view": "பார்",
+      "acknowledge": "ஏற்கவும்"
+    }
+  },
+  "farmerDashboard": {
+    "title": "பண்ணை டாஷ்போர்டு",
+    "subtitle": "உங்கள் பண்ணையின் மருந்து பயன்பாடு மற்றும் இணக்கத்தை கண்காணிக்கவும்",
+    "activeTreatments": "செயலில் உள்ள சிகிச்சைகள்",
+    "pendingApprovals": "நிலுவையில் உள்ள அனுமதிகள்",
+    "feedAdditives": "மேம்பாட்டு சேர்மங்கள்",
+    "problemsReported": "அறிக்கையிட்ட பிரச்சினைகள்",
+    "prescriptions": "மருந்தளித்தல்",
+    "compliance": "இணக்கம்",
+    "problemsAndPrescriptions": "கால்நடை பிரச்சினைகள் & மருந்தளித்தல்",
+    "problemsAndPrescriptionsDesc": "அறிக்கையிட்ட பிரச்சினைகள் மற்றும் பெறப்பட்ட மருந்தளித்தல்",
+    "noProblems": "இன்னும் எந்த பிரச்சினையும் அறிக்கையிடப்படவில்லை",
+    "noProblemsCta": "தொடங்க \"கால்நடை பிரச்சினை அறிக்கையிடவும்\" என்பதைக் கிளிக் செய்யவும்",
+    "reported": "அறிக்கையிடப்பட்டது",
+    "prescriptionReceived": "மருந்தளித்தல் பெறப்பட்டது",
+    "medication": "மருந்து",
+    "dosage": "அளவு",
+    "duration": "கால அளவு",
+    "withdrawalPeriod": "விலகல் காலம்",
+    "instructions": "வழிமுறைகள்",
+    "safeAfter": "இதன் பிறகு பயன்பாட்டுக்கு பாதுகாப்பாக இருக்கும்",
+    "waitingForReview": "கால்நடை மருத்துவர் மதிப்பீட்டை காத்திருக்கிறது",
+    "recentTreatments": "சமீபத்திய சிகிச்சைகள்",
+    "recentTreatmentsDesc": "சமீபத்திய எதிர்நுண்ணுயிரி சிகிச்சைகள்",
+    "noTreatments": "இன்னும் எந்த சிகிச்சையும் பதிவு செய்யப்படவில்லை",
+    "noTreatmentsCta": "தொடங்க உங்கள் முதல் சிகிச்சையை சமர்ப்பிக்கவும்",
+    "withdrawal": "விலகல்",
+    "approvedBy": "அனுமதித்தவர்",
+    "rejected": "நிராகரிக்கப்பட்டது",
+    "alertsAndNotifications": "எச்சரிக்கைகள் & அறிவிப்புகள்",
+    "alertsAndNotificationsDesc": "முக்கிய புதுப்பிப்புகள் மற்றும் நினைவூட்டல்கள்",
+    "noActiveAlerts": "செயலில் உள்ள எச்சரிக்கைகள் இல்லை",
+    "noActiveAlertsDesc": "அனைத்து விலகல் காலங்கள் மற்றும் இணக்கம் உருப்படிகள் இற்றைப்படுத்தப்பட்டுள்ளன"
+  }
+}
+

@@ -14,7 +14,7 @@ public class DemoApplication {
         } else {
             System.out.println("========== MONGO_URI IS SET ==========");
             System.out.println("Starts with: " +
-                    mongoUri.substring(0, Math.min(15, mongoUri.length())));
+                    mongoUri.substring(0, Math.min(21, mongoUri.length())));
         }
 
         SpringApplication.run(DemoApplication.class, args);

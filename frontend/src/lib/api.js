@@ -1,9 +1,9 @@
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 async function request(path, options = {}) {
     const url = `${API_BASE_URL}${path}`;
     const token = localStorage.getItem('farmPortalToken');
-    const headers = {
+    const headers = { 
         'Content-Type': 'application/json',
         ...options.headers,
     };
